@@ -13,3 +13,12 @@ git remote -v
 ## 원격 레파지터리 연결
 1. 팀 폴더를 만들기
 2. 팀 폴더를 기반으로 vscode 열기
+3. git clone [github-url]
+4. clone 받은 폴더 기준으로 vscode 다시 열기
+
+## 충돌 났을 때
+1. git pull origin main 으로 강제로 코드 가져오기
+2. (설정 알림이 나오면) git config pull.rebase false
+3. 격자무늬 충돌알림 마크보고 최종 코드 결정하기
+4. add, commit, push 하기
+
