@@ -22,3 +22,11 @@ git remote -v
 3. 격자무늬 충돌알림 마크보고 최종 코드 결정하기
 4. add, commit, push 하기
 
+# 브랜치 이력 확인
+## 브랜치 목록 확인
+git branch
+
+## 브랜치 이동
+git checkout [branch-name]
+
+git checkout -b [branch-name]
